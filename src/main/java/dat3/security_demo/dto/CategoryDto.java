@@ -1,6 +1,7 @@
 package dat3.security_demo.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import dat3.security_demo.entity.Category;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

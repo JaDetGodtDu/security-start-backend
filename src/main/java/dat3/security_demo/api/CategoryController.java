@@ -26,7 +26,7 @@ public class CategoryController {
     @PostMapping
     public CategoryDto addCategory(@RequestBody CategoryDto request) {
 
-        return categoryService.addRecipe(request);
+        return categoryService.addCategory(request);
     }
 }
 
