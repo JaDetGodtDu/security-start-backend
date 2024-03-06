@@ -1,5 +1,6 @@
 package dat3.security_demo.api;
 
+import dat3.security_demo.dto.CategoryDto;
 import dat3.security_demo.dto.RecipeDto;
 import dat3.security_demo.service.CategoryService;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -23,8 +24,9 @@ public class CategoryController {
     }
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping
-    public RecipeDto addCategory(@RequestBody RecipeDto request) {
-        return recipeService.addRecipe(request);
+    public CategoryDto addCategory(@RequestBody CategoryDto request) {
+
+        return categoryService.addRecipe(request);
     }
 }
 
