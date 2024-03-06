@@ -20,5 +20,4 @@ public class PasswordHashingExercise implements ApplicationRunner {
             }
             System.out.println("###### Hashing Passwords ######");
         }
-
     }
