@@ -21,6 +21,7 @@ public class RecipeDto {
     private String youTube;
     private String thumb;
     private String source;
+    private String owner;
     private LocalDateTime created;
     private LocalDateTime edited;
 
@@ -32,6 +33,7 @@ public class RecipeDto {
         this.youTube = r.getYouTube();
         this.thumb = r.getThumb();
         this.source = r.getSource();
+        this.owner = r.getOwner();
         this.category = r.getCategory().getName();
         if(includeAll){
             this.created = r.getCreated();

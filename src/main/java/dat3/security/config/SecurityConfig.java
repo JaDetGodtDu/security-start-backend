@@ -74,7 +74,7 @@ public class SecurityConfig {
             //.requestMatchers(mvcMatcherBuilder.pattern(HttpMethod.POST, "/recipes")).hasAuthority("USER")
             //.requestMatchers(mvcMatcherBuilder.pattern(HttpMethod.PUT, "/recipes/*")).hasAuthority("USER")
             //.requestMatchers(mvcMatcherBuilder.pattern(HttpMethod.DELETE, "/recipes/*")).hasAuthority("USER")
-            
+
             //Sets authority for categories HTTP methods - also found in the category controller
             //.requestMatchers(mvcMatcherBuilder.pattern(HttpMethod.POST, "/categories")).hasAuthority("ADMIN")
 
