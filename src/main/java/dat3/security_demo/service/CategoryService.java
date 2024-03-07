@@ -35,6 +35,7 @@ public class CategoryService {
         return new CategoryDto(newCategory, false);
     }
     private void updateCategory(Category original, CategoryDto category) {
+
         original.setName(category.getName());
     }
 
