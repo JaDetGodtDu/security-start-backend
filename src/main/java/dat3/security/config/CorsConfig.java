@@ -18,7 +18,8 @@ public class CorsConfig {
             "http://127.0.0.1:5173",
             "http://127.0.0.1:5500",
             "http://localhost:4173",
-            "https://jadetgodtdu.github.io/recipes-start"
+            "https://jadetgodtdu.github.io/recipes-start",
+            "https://jadetgodtdu.github.io"
     };
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
